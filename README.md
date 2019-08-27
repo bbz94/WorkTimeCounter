@@ -2,7 +2,7 @@
 Software for tracking employee work time on Windows devices.
 
 ## Description
-C# WPF applicaiton. Works only on Windows Devices. ALso in software showing reports using Microsoft Report Builder;
+C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon;
 Tool collect information like:
 * Activity;
  * Writes in MS SQL DB information about programms which where used by user on PC;
