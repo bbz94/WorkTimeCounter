@@ -9,24 +9,24 @@ Tool collect information like:
 * Activity;
   * Writes in MS SQL DB information about programms which where used by user on PC;
   * Writes in DB [UserName] ,[Date] ,[Time] ,[WindowsTitle];
-  * ![Activities](/Screens/Activities.png)
-  * ![ActivitiesDb](/Screens/ActivitiesDb.png)
+  * ![Activities](/Files/Screens/Activities.png)
+  * ![ActivitiesDb](/Files/Screens/ActivitiesDb.png)
 * Attendance;
   * Writes in MS SQL DB information about how long was user sesion on PC;
   * Writes in DB [UserName] ,[Date] ,[OnTime] ,[OfTime];
-  * ![Attendance](/Screens/Attendance.png)
-  * ![AttendanceDb](/Screens/AttendanceDb.png)
+  * ![Attendance](/Files//Screens/Attendance.png)
+  * ![AttendanceDb](/Files//Screens/AttendanceDb.png)
 * Projects;
   * Used to show reports in software based on applicaiton Windows Titles which are added in SQL DB in specifc format;
   * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
   * Writes in DB [ProjectName] ,[WindowsTitleContains];
-  * ![Projects](/Screens/Projects.png)
-  * ![ProjectsDb](/Screens/ProjectsDb.png)
+  * ![Projects](/Files//Screens/Projects.png)
+  * ![ProjectsDb](/Files//Screens/ProjectsDb.png)
   
 * When software started it cannot be turned off in normal ways, only from task manager;
 * When software started you will see tray icon, if you click with left mouse, it will open app, if you click right mouse click you will see menu, where you can click on "Refresh Now" button which will send information to SQL DB. By default every 5 minutes data have been synced with SQL DB;
-  * ![MouseLeftClick](/Screens/MouseLeftClick.png)
-  * ![MouseRightClick](/Screens/MouseRightClick.png)
+  * ![MouseLeftClick](/Files//Screens/MouseLeftClick.png)
+  * ![MouseRightClick](/Files//Screens/MouseRightClick.png)
  
 ## Implementation guide
 * Guide will be as detailed as possible. Goal is to make this software available for anyone who needs such informaiton colelcted.
@@ -40,3 +40,6 @@ Tool collect information like:
   * To compile project and change few things like SQL connection string;
 * [Micorosft Windows Device](https://lv.wikipedia.org/wiki/Microsoft_Windows)
   * Device on which install this software;
+ 
+##### SQL DB configuration
+
