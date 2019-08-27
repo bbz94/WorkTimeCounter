@@ -10,15 +10,18 @@ Tool collect information like:
   * Writes in MS SQL DB information about programms which where used by user on PC;
   * Writes in DB [UserName] ,[Date] ,[Time] ,[WindowsTitle];
   * ![Activities](/Screens/Activities.png)
+  * ![ActivitiesDb](/Screens/ActivitiesDb.png)
 * Attendance;
   * Writes in MS SQL DB information about how long was user sesion on PC;
   * Writes in DB [UserName] ,[Date] ,[OnTime] ,[OfTime];
   * ![Attendance](/Screens/Attendance.png)
+  * ![AttendanceDb](/Screens/AttendanceDb.png)
 * Projects;
   * Used to show reports in software based on applicaiton Windows Titles which are added in SQL DB in specifc format;
   * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
   * Writes in DB [ProjectName] ,[WindowsTitleContains];
   * ![Projects](/Screens/Projects.png)
+  * ![ProjectsDb](/Screens/ProjectsDb.png)
   
 * When software started it cannot be turned off in normal ways, only from task manager;
 * When software started you will see tray icon, if you click with left mouse, it will open app, if you click right mouse click you will see menu, where you can click on "Refresh Now" button which will send information to SQL DB. By default every 5 minutes data have been synced with SQL DB;
