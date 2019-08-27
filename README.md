@@ -17,8 +17,8 @@ Tool collect information like:
   * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
   * Writes in DB [ProjectName] ,[WindowsTitleContains];
   
-When software started it cannot be turned off in normal ways, only from task manager;
-When software started you will see tray icon, if you click with left mouse, it will open app, if you click right mouse click you will see menu, where you can click on "Refresh Now" button which will send information to SQL DB. By default every 5 minutes data have been synced with SQL DB;
+* When software started it cannot be turned off in normal ways, only from task manager;
+* When software started you will see tray icon, if you click with left mouse, it will open app, if you click right mouse click you will see menu, where you can click on "Refresh Now" button which will send information to SQL DB. By default every 5 minutes data have been synced with SQL DB;
  
 ## Implementation guide
 * Guide will be as detailed as possible. Goal is to make this software available for anyone who needs such informaiton colelcted.
