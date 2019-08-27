@@ -2,9 +2,6 @@
 Software for tracking employee work time on Windows devices.
 * Goal was to collect necessary information without any action from user side. User can open program to check progress, in some way it could help employee to be more motivated. Also this software can be used as control for employeer or boss, to see how effective are employees.
 * Best works for persons who are working all day using PC;
-## screenshots
-![MouseLeftClick](/Screens/MouseLeftClick.png)
-![MouseRightClick](/Screens/MouseRightClick.png)
 
 ## Description
 C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon;
@@ -25,6 +22,8 @@ Tool collect information like:
   
 * When software started it cannot be turned off in normal ways, only from task manager;
 * When software started you will see tray icon, if you click with left mouse, it will open app, if you click right mouse click you will see menu, where you can click on "Refresh Now" button which will send information to SQL DB. By default every 5 minutes data have been synced with SQL DB;
+  * ![MouseLeftClick](/Screens/MouseLeftClick.png)
+  * ![MouseRightClick](/Screens/MouseRightClick.png)
  
 ## Implementation guide
 * Guide will be as detailed as possible. Goal is to make this software available for anyone who needs such informaiton colelcted.
