@@ -15,7 +15,7 @@ Tool collect information like:
 * Projects;
  * Used to show reports in software based on applicaiton Windows Titles which are added in SQL DB in specifc format;
  * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
- * * Writes in DB [ProjectName] ,[WindowsTitleContains]
+ * Writes in DB [ProjectName] ,[WindowsTitleContains]
  
 
 ## Implementation guide
