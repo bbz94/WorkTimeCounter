@@ -2,8 +2,9 @@
 Software for tracking employee work time on Windows devices.
 * Goal was to collect necessary information without any action from user side. User can open program to check progress, in some way it could help employee to be more motivated. Also this software can be used as control for employeer or boss, to see how effective are employees.
 * Best works for persons who are working all day using PC;
-## Screen shoots
-![Activities](/Screens/Activities.png)
+## screenshots
+![MouseLeftClick](/Screens/MouseLeftClick.png)
+![MouseRightClick](/Screens/MouseRightClick.png)
 
 ## Description
 C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon;
@@ -11,13 +12,16 @@ Tool collect information like:
 * Activity;
   * Writes in MS SQL DB information about programms which where used by user on PC;
   * Writes in DB [UserName] ,[Date] ,[Time] ,[WindowsTitle];
+  * ![Activities](/Screens/Activities.png)
 * Attendance;
   * Writes in MS SQL DB information about how long was user sesion on PC;
   * Writes in DB [UserName] ,[Date] ,[OnTime] ,[OfTime];
+  * ![Attendance](/Screens/Attendance.png)
 * Projects;
   * Used to show reports in software based on applicaiton Windows Titles which are added in SQL DB in specifc format;
   * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
   * Writes in DB [ProjectName] ,[WindowsTitleContains];
+  * ![Projects](/Screens/Projects.png)
   
 * When software started it cannot be turned off in normal ways, only from task manager;
 * When software started you will see tray icon, if you click with left mouse, it will open app, if you click right mouse click you will see menu, where you can click on "Refresh Now" button which will send information to SQL DB. By default every 5 minutes data have been synced with SQL DB;
