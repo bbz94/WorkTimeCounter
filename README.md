@@ -7,15 +7,15 @@ Software for tracking employee work time on Windows devices.
 C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon;
 Tool collect information like:
 * Activity;
- * Writes in MS SQL DB information about programms which where used by user on PC;
- * Writes in DB [UserName] ,[Date] ,[Time] ,[WindowsTitle];
+  * Writes in MS SQL DB information about programms which where used by user on PC;
+  * Writes in DB [UserName] ,[Date] ,[Time] ,[WindowsTitle];
 * Attendance;
- * Writes in MS SQL DB information about how long was user sesion on PC;
- * Writes in DB [UserName] ,[Date] ,[OnTime] ,[OfTime];
+  * Writes in MS SQL DB information about how long was user sesion on PC;
+  * Writes in DB [UserName] ,[Date] ,[OnTime] ,[OfTime];
 * Projects;
- * Used to show reports in software based on applicaiton Windows Titles which are added in SQL DB in specifc format;
- * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
- * Writes in DB [ProjectName] ,[WindowsTitleContains]
+  * Used to show reports in software based on applicaiton Windows Titles which are added in SQL DB in specifc format;
+  * In SQL DB administrator should add Project name and part of Windows Title (Keywords) by which time will be calculated;
+  * Writes in DB [ProjectName] ,[WindowsTitleContains]
  
 
 ## Implementation guide
