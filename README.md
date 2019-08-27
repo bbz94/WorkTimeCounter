@@ -2,6 +2,8 @@
 Software for tracking employee work time on Windows devices.
 * Goal was to collect necessary information without any action from user side. User can open program to check progress, in some way it could help employee to be more motivated. Also this software can be used as control for employeer or boss, to see how effective are employees.
 * Best works for persons who are working all day using PC;
+## Screen shoots
+![Activities](/Screens/Activities.png)
 
 ## Description
 C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon;
