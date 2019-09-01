@@ -47,4 +47,6 @@ Tool collects information like:
 1. Run SQL script againt MS SQL DB "\WorkTimeCounter-master\Files\SetupSql\PrepareSQL.sql";
   1. At result you will have.
 
-
+1. Item 3
+   1. Item 3a
+   1. Item 3b
