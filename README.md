@@ -42,16 +42,19 @@ Tool collects information like:
 * [Micorosft Windows Device](https://lv.wikipedia.org/wiki/Microsoft_Windows)
   * Device on which install this software;
  
-##### SQL DB configuration
+##### Impelementation
 1. [Installing SQL Server 2017 Express](https://www.mssqltips.com/sqlservertip/5528/installing-sql-server-2017-express/);
 1. Run SQL script againt MS SQL DB "\WorkTimeCounter-master\Files\SetupSql\PrepareSQL.sql";
    1. At result you will see that "Development" DB is create with 3 tables:
    1. ![SqlTables](/Files//Screens/SqlTables.png)
 1. Open project from Visual Studio;
    1. From VS go to Tools -> Connect to database -> Connect to your database;
+   1. ![ConnectToDb](/Files//Screens/ConnectToDb.png)
    1. Copy "Conection String";
+   1. ![ConnectionString](/Files//Screens/ConnectionString.png)
    1. From VS open "MainWindow.xaml.cs";
    1. Replace connectionString in line 48;
    1. In case if you have "\\" in your data source you will need add one more slash "\\\\" otherwise you will not be able to connect to DB, also you need to add Password check example bellow;
-   1. `public static String connectionString = "Data Source=DESKTOP-O5L00A2\\SQLEXPRESS;Initial Catalog=Development;Persist Security Info=True;User ID=Development;Password=YourPasswordHere";
-`
+   1. `public static String connectionString = "Data Source=DESKTOP-O5L00A2\\SQLEXPRESS;Initial Catalog=Development;Persist Security Info=True;User ID=Development;Password=YourPasswordHere";`
+   1. Reason why I add connection string in code before compilation because users should not be able to find connection string. To see other users data is not allowed.
+1. Compile code install on user computers and enjoy!
