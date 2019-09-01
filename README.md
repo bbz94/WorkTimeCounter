@@ -44,5 +44,7 @@ Tool collects information like:
  
 ##### SQL DB configuration
 1. [Installing SQL Server 2017 Express](https://www.mssqltips.com/sqlservertip/5528/installing-sql-server-2017-express/);
+1. Run SQL script againt MS SQL DB "\WorkTimeCounter-master\Files\SetupSql\PrepareSQL.sql";
+  1. At result you will have.
 
 
