@@ -108,3 +108,55 @@ GO
 
 ALTER DATABASE [Development] SET  READ_WRITE 
 GO
+
+USE [Development]
+GO
+
+/****** Object:  Table [dbo].[Activities]    Script Date: 8/27/2019 11:25:49 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Activities](
+	[UserName] [nchar](10) NULL,
+	[Date] [date] NULL,
+	[Time] [time](7) NULL,
+	[WindowsTitle] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+USE [Development]
+GO
+
+/****** Object:  Table [dbo].[Attendance]    Script Date: 8/27/2019 11:26:44 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Attendance](
+	[UserName] [nchar](10) NULL,
+	[Date] [date] NULL,
+	[OnTime] [time](7) NULL,
+	[OfTime] [time](7) NULL
+) ON [PRIMARY]
+GO
+
+USE [Development]
+GO
+
+/****** Object:  Table [dbo].[Projects]    Script Date: 8/27/2019 11:27:02 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Projects](
+	[ProjectName] [nvarchar](max) NULL,
+	[WindowsTitleContains] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
