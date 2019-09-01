@@ -49,9 +49,11 @@ Tool collects information like:
    1. ![SqlTables](/Files//Screens/SqlTables.png)
 1. Open project from Visual Studio;
    1. From VS go to Tools -> Connect to database -> Connect to your database;
+   1. ![ConnectToDb](/Files//Screens/ConnectToDb.png)
    1. Copy "Conection String";
+   1. ![ConnectionString](/Files//Screens/ConnectionString.png)
    1. From VS open "MainWindow.xaml.cs";
    1. Replace connectionString in line 48;
    1. In case if you have "\\" in your data source you will need add one more slash "\\\\" otherwise you will not be able to connect to DB, also you need to add Password check example bellow;
-   1. `public static String connectionString = "Data Source=DESKTOP-O5L00A2\\SQLEXPRESS;Initial Catalog=Development;Persist Security Info=True;User ID=Development;Password=YourPasswordHere";
-`
+   1. `public static String connectionString = "Data Source=DESKTOP-O5L00A2\\SQLEXPRESS;Initial Catalog=Development;Persist Security Info=True;User ID=Development;Password=YourPasswordHere";`
+1. Compile code install on user computers and enjoy!
