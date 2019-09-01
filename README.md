@@ -52,6 +52,6 @@ Tool collects information like:
    1. Copy "Conection String";
    1. From VS open "MainWindow.xaml.cs";
    1. Replace connectionString in line 48;
-   1. In case if you have "\" in your data source you will need add one more slash "\\" otherwise you will not be able to connect to DB, also you need to add Password check example bellow;
+   1. In case if you have "\\" in your data source you will need add one more slash "\\\\" otherwise you will not be able to connect to DB, also you need to add Password check example bellow;
    1. `public static String connectionString = "Data Source=DESKTOP-O5L00A2\\SQLEXPRESS;Initial Catalog=Development;Persist Security Info=True;User ID=Development;Password=Daugava1";
 `
