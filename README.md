@@ -4,8 +4,9 @@ Software for tracking employee work time on Windows devices.
 * Best works for persons who are working all day using PC;
 
 ## Description
-C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon;
-Tool collect information like:
+C# WPF applicaiton. Works only on Windows Devices. Representing reports in this program using Microsoft Report Builder addon.
+
+Tool collects information like:
 * Activity;
   * Writes in MS SQL DB information about programms which where used by user on PC;
   * Writes in DB [UserName] ,[Date] ,[Time] ,[WindowsTitle];
@@ -42,4 +43,10 @@ Tool collect information like:
   * Device on which install this software;
  
 ##### SQL DB configuration
+1. [Installing SQL Server 2017 Express](https://www.mssqltips.com/sqlservertip/5528/installing-sql-server-2017-express/);
+1. Run SQL script againt MS SQL DB "\WorkTimeCounter-master\Files\SetupSql\PrepareSQL.sql";
+  1. At result you will have.
 
+1. Item 3
+   1. Item 3a
+   1. Item 3b
