@@ -47,6 +47,8 @@ Tool collects information like:
 1. Run SQL script againt MS SQL DB "\WorkTimeCounter-master\Files\SetupSql\PrepareSQL.sql";
    1. At result you will see that "Development" DB is create with 3 tables:
    1. ![SqlTables](/Files//Screens/SqlTables.png)
+1. Create MS SQL user and grant permissions for "Development DB", more info below:
+   1. ![GrantPermissions](/Files//Screens/GrantPermissions.png)
 1. Open project from Visual Studio;
    1. From VS go to Tools -> Connect to database -> Connect to your database;
    1. ![ConnectToDb](/Files//Screens/ConnectToDb.png)
